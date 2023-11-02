@@ -1,0 +1,28 @@
+{
+    "firstName": "Oussama", 
+    "lastName": "Berrada Ifriqi",
+    "role": "Software Engineer",
+    "description": "👨‍💻 Oussama Berrada Ifriqi  | Full Stack Dev in Progress 🚀,🌍 Moroccan Coder 🇲🇦 | 21 Years Young 🎉,💡 Constantly Learning & Growing 🌱,🛠️ Crafted Projects with Passion ❤️,💻 Expert in PHP | JS Enthusiast 🚀,🎵 Beatsmith by Night 🎶 | DexIndex🎤.",
+    "projects": [
+      "https://immobusiness.ma/",
+      "https://ajiw.ma/",
+      "https://marocgros.com/"
+    ],
+    "links": {
+      "github": "https://github.com",
+      "linkedin": "https://linkedin.com",
+      "twitter": "https://twitter.com",
+      "facebook": "https://facebook.com",
+      "instagram": "https://instagram.com",
+      "youtube": "https://youtube.com"
+    },
+    "personalInfo": {
+      "Age": "21",
+      "Country": "Morocco",
+      "Languages": "Arabic, English, French",
+      "City": "Fez",
+      "address": "Fake address,<br /> 12345 City ,Country",
+      "phone": "123456789",
+      "email": "aHb5h@example.com"
+    }
+  }

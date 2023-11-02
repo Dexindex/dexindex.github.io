@@ -4,43 +4,43 @@ import data from "../data.json";
 export default function Offmenu() {
   return (
     <div
-      class="offcanvas offcanvas-end header-offcanvasmenu"
-      tabindex="-1"
+    className="offcanvas offcanvas-end header-offcanvasmenu"
+    tabIndex="-1"
       id="offcanvasMenuRight"
     >
-      <div class="offcanvas-header">
+      <div className="offcanvas-header">
         <button
           type="button"
-          class="btn-close"
+          className="btn-close"
           data-bs-dismiss="offcanvas"
           aria-label="Close"
         ></button>
       </div>
-      <div class="offcanvas-body">
-        <div class="row ">
-          <div class="col-lg-7 col-xl-6">
-            <div class="contact-info-wrap">
-              <div class="contact-inner">
-                <address class="address">
-                  <span class="title">Contact Information</span>
+      <div className="offcanvas-body">
+        <div className="row ">
+          <div className="col-lg-7 col-xl-6">
+            <div className="contact-info-wrap">
+              <div className="contact-inner">
+                <address className="address">
+                  <span className="title">Contact Information</span>
                   <p>{data.links.address}</p>
                 </address>
-                <address class="address">
-                  <span class="title">We're Available 24/7. Call Now.</span>
-                  <a class="tel" href={"tel:" + data.personalInfo.phone}>
-                    <i class="fas fa-phone"></i>
+                <address className="address">
+                  <span className="title">We're Available 24/7. Call Now.</span>
+                  <a className="tel" href={"tel:" + data.personalInfo.phone}>
+                    <i className="fas fa-phone"></i>
                     {data.personalInfo.phone}
                   </a>
-                  <a class="tel" href={"mailto:" + data.personalInfo.email}>
-                    <i class="fas fa-envelope"></i>
+                  <a className="tel" href={"mailto:" + data.personalInfo.email}>
+                    <i className="fas fa-envelope"></i>
                     {data.personalInfo.email}
                   </a>
                 </address>
               </div>
-              <div class="contact-inner">
-                <h5 class="title">Find us here</h5>
-                <div class="contact-social-share">
-                  <ul class="social-share list-unstyled">
+              <div className="contact-inner">
+                <h5 className="title">Find us here</h5>
+                <div className="contact-social-share">
+                  <ul className="social-share list-unstyled">
                     <li>
                       <a href={data.links.facebook}>
                         <i className="fab fa-facebook-f"></i>

@@ -34,12 +34,12 @@ export default function Navbar() {
                   <li className="my_switcher d-block d-lg-none">
                     <ul>
                       <li title="Light Mode">
-                        <a className="setColor light" data-theme="light">
+                        <a className="setColor light" data-theme="light"style={{cursor:"pointer"}}>
                           <i className="fal fa-lightbulb-on"></i>
                         </a>
                       </li>
                       <li title="Dark Mode">
-                        <a className="setColor dark" data-theme="dark">
+                        <a className="setColor dark" data-theme="dark"style={{cursor:"pointer"}}>
                           <i className="fas fa-moon"></i>
                         </a>
                       </li>
